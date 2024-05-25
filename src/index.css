@@ -3,11 +3,7 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer base{
-  .red {
-    @apply colo;
-  }
-}
+
 
 /* body {
   margin: 0;
