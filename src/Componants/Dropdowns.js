@@ -34,7 +34,7 @@ const Dropdowns = () => {
 
     {isOpen && (
       <div
-        className="origin-top-right absolute right-0 border-t-2 w-full  shadow-lg bg-[#d9d9d9]  ring-opacity-5 focus:outline-none"
+        className="origin-top-right absolute right-0 border-t-2 text-center shadow-lg bg-[#d9d9d9]  ring-opacity-5 focus:outline-none"
         role="menu"
         aria-orientation="vertical"
         aria-labelledby="menu-button"

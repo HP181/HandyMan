@@ -6,11 +6,11 @@ import Services from "../Componants/Services";
 const Dashboard = () => {
   return (
     <div className="pb-5 ">
-      <div className="flex max-w-6xl m-auto pt-5">
+      <div className="flex flex-col md:flex-row max-w-6xl  m-auto pt-5 p-2  ">
         <div className="flex-[50vw] ">
           <Search />
 
-          <div className="flex flex-col gap-y-5 ">
+          <div className="flex flex-col text-sm md:text-base gap-y-5  ">
             <Cards />
             <Cards />
             <Cards />
@@ -20,7 +20,7 @@ const Dashboard = () => {
         </div>
 
 
-        <div className="flex-[20vw] pl-10">
+        <div className="flex-[20vw] mt-10 md:pl-10 md:mt-0">
             <Services />
         </div>
       </div>
